@@ -1,0 +1,23 @@
+$primary-color: #d5dadf;
+
+body {
+  background-color: $primary-color;
+  
+}
+
+.task__list {
+	list-style: none;
+}
+
+.task__item {
+	padding: 7px;
+	margin: 5px;
+	border: 1px solid red ;
+	cursor: move;
+	background-color: #dff2ef;
+}
+
+.selected {
+	opacity: 0.5;
+	background-color: #4dbaec;
+}
